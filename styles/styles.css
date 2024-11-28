@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../assets/images/tulipanes.png') no-repeat center;
+}
+
+.container{
+    text-align: center;
+    background: rgb(251, 239, 251);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.letter {
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    margin: 0 5px;
+    animation: bounce 2s infinite;
+}
+.k {
+    color: #FF5733;
+    text-shadow: 3px 3px 8px rgba(255, 87, 51, 0.5);
+
+}
+.a {
+    color: #FFC300;
+    text-shadow: 3px 3px 8px rgba(255, 195, 0, 0.5);
+}
+.t {
+    color: #28B463;
+    text-shadow: 3px 3px 8px rgba(40, 180, 99, 0.5);
+}
+.h {
+    color: #3498DB;
+    text-shadow: 3px 3px 8px rgba(52, 152, 291, 0.5);
+}
+.y {
+    color: #8E44AD;
+    text-shadow: 3px 3px 8px rgba(142, 68, 173, 0.5);
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
